@@ -51,7 +51,8 @@ function conversionGrados(gradosCelsius){
 
 //Calcular el valor del voltaje dadas la resistencia y la corriente
 
-function calcularVoltaje(resistencia,corriente){    
+    //Funcion con nombre    
+    function calcularVoltaje(resistencia,corriente){    
     let voltaje = resistencia*corriente;
     console.log("El voltaje es:"+voltaje);
 }
@@ -61,6 +62,17 @@ function calcularVoltaje(resistencia,corriente){
 
 
 //calcular el volumen de una esfera
+
+    //Funcion con nombre
+    function calcularVolEsfera(radio){    
+    let volEsfera = 4/3*pi*(radio*radio*radio)
+    console.log("El volumen de la esfera es:"+volEsfera);
+}
+    //Funcion flecha
+    const calcVolEsfera = (radio) => console.log("El volumen de la esfera es:"+4/3*pi*(radio*radio*radio));
+
+
+
   
   
   
